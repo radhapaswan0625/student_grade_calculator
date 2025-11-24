@@ -9,7 +9,7 @@ sub5=float(input("enter marks of subject 5:"))
 
 #calculate total and percentage
 
-total=sub1+sub2+sub3+sub4+sub5
+total=(sub1+sub2+sub3+sub4+sub5)
 percentage=(total/500)*100
 
 #determine grade
@@ -24,8 +24,8 @@ elif percentage>=35:
 else:
     grade="F"
 
-    #print result
-    print("\n....Result.....")
-    print("Total Marks:", total)
-    print("percentage:", percentage,"%")
-    print("Grade:", grade)
+#print result
+print("\n....Result.....")
+print("Total Marks:", total)
+print("percentage:", percentage,"%")
+print("Grade:", grade)
