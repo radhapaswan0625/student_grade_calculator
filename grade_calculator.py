@@ -1,4 +1,4 @@
-print(".......students Grade calculator.....")
+print("======students Grade calculator=====")
 #input marks
 
 sub1=float(input("enter marks of subject 1:"))
@@ -27,5 +27,5 @@ else:
 #print result
 print("\n....Result.....")
 print("Total Marks:", total)
-print("percentage:", percentage,"%")
+print(f"Percentage : {percentage:.2f}%")
 print("Grade:", grade)
