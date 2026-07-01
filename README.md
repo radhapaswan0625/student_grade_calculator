@@ -9,5 +9,9 @@ A simple Python program to calculate total marks, percentage, and grade for stud
 3. Navigate to the project folder where `grade_calculator.py` is saved.
 4. Run the program by typing:
 
+## Sample Output
+
+![Student Grade Calculator Output](student-grade-output.png)   
+
 ```bash
 python grade_calculator.py
